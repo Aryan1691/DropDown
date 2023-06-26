@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Belanosima:wght@600&display=swap");
+.menuPage {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background: url(../assets/bg.svg);
+  background-size: cover;
+}
+
+body {
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+* {
+  font-family: "Varela Round", sans-serif;
+}
+select {
+  padding: 25px;
+
+  font-size: 1.2em;
+  font-variant: small-caps;
+  cursor: pointer;
+  display: block;
+  font-family: "Varela Round", sans-serif;
+
+  color: black;
+  margin-bottom: 10px;
+  background: url(arrow-icon.png) no-repeat;
+  background-position: right center;
+  background-size: 12px;
+  padding-right: 30px;
+  transition: 0.4s;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+}
+select:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  background-color: rgb(69, 159, 255);
+  color: white;
+}
+
+select option {
+  background-color: grey;
+  color: white;
+}
+
+select option:checked {
+  background-color: #f0f0f0;
+  color: #555;
+}

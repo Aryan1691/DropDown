@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" width="1440" height="560" preserveAspectRatio="none" viewBox="0 0 1440 560">
+    <g mask="url(&quot;#SvgjsMask1016&quot;)" fill="none">
+        <path d="M-81.89 241.24 a152.74 152.74 0 1 0 305.48 0 a152.74 152.74 0 1 0 -305.48 0z" fill="rgba(28, 3, 244, 1)" class="triangle-float2"></path>
+        <path d="M630.54 407.78 a148.68 148.68 0 1 0 297.36 0 a148.68 148.68 0 1 0 -297.36 0z" fill="rgba(28, 3, 244, 1)" class="triangle-float1"></path>
+        <path d="M1064.85 172.58 a169.32 169.32 0 1 0 338.64 0 a169.32 169.32 0 1 0 -338.64 0z" fill="rgba(28, 3, 244, 1)" class="triangle-float2"></path>
+        <path d="M731.77 39.11 a93.65 93.65 0 1 0 187.3 0 a93.65 93.65 0 1 0 -187.3 0z" fill="rgba(28, 3, 244, 1)" class="triangle-float3"></path>
+    </g>
+    <defs>
+        <mask id="SvgjsMask1016">
+            <rect width="1440" height="560" fill="#ffffff"></rect>
+        </mask>
+        <style>
+            @keyframes float1 {
+                    0%{transform: translate(0, 0)}
+                    50%{transform: translate(-10px, 0)}
+                    100%{transform: translate(0, 0)}
+                }
+
+                .triangle-float1 {
+                    animation: float1 5s infinite;
+                }
+
+                @keyframes float2 {
+                    0%{transform: translate(0, 0)}
+                    50%{transform: translate(-5px, -5px)}
+                    100%{transform: translate(0, 0)}
+                }
+
+                .triangle-float2 {
+                    animation: float2 4s infinite;
+                }
+
+                @keyframes float3 {
+                    0%{transform: translate(0, 0)}
+                    50%{transform: translate(0, -10px)}
+                    100%{transform: translate(0, 0)}
+                }
+
+                .triangle-float3 {
+                    animation: float3 6s infinite;
+                }
+        </style>
+    </defs>
+</svg>
